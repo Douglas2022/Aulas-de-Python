@@ -1,8 +1,21 @@
-n1 = int(input('Digite primeiro número: '))
-n2 = int(input('Digite segundo número: '))
-n3 = int(input('Digite terceiro número: '))
+nome = input('Digite seu nome: ')
+notas = int(input('Digite sua nota: '))
+aulas = int(input('Digite quantas aulas participou: '))
 
-s = (n1 + n2 + n3)/3
-print('O valor é de:',s)
+if notas >=7 and aulas >= 40:
+    print('Aprovado!')
+elif aulas < 40:
+    print('Reprovado por falta!')
+else:
+    print('Reprovado por nota!')
+
+
+
+
+
+
+
+
+
 
 
