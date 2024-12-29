@@ -1,5 +1,16 @@
-for valor in range(0,10,1):
-    print(valor)
+# for valor in range(0,10,1):
+    # print(valor)
+
+n1 = int(input('Digite um numero: '))
+n2 = int(input('Digite um numero: ')) 
+soma = n1 + n2
+if(soma > 6):
+    print('O número é maior!',soma)
+elif(soma <=5):
+    print('O numero é menor',soma)
+else:
+    print('Número inválido!')
+
 
 
 
