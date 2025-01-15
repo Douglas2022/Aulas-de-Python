@@ -1,4 +1,3 @@
-ListadeCompras = ['Arroz','Feijão','Macarrão']
-intem = input('Digite um intem: ')
-ListadeCompras.append(intem)
+ListadeCompras = ['Arroz','Feijão','Macarrão','Café','Maionese']
+del(ListadeCompras[2:5])
 print(ListadeCompras)
