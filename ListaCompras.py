@@ -1,3 +1,2 @@
-ListadeCompras = ['Arroz','Feijão','Macarrão','Café','Maionese']
-del(ListadeCompras[2:5])
-print(ListadeCompras)
+for i in range(1,21,1):
+    print(i)
