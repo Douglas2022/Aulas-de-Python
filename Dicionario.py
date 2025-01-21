@@ -7,16 +7,20 @@
 # print(type(media))
 # x = 3
 # y = 4
-# print(not('y == x'))
-produto = 'Iphone'
-quantidade_estoque = 200
+# # print(not('y == x'))
+# produto = 'Iphone'
+# quantidade_estoque = 200
 
-print("O produto",produto,"tem",quantidade_estoque,"unidade no estoque",sep=",")
+# print("O produto",produto,"tem",quantidade_estoque,"unidade no estoque",sep=",")
 
-import time
-print("Contagem")
-for i in range(5):
-    print(5 - i)
-    # print(5 - i, end="\r")
-    time.sleep(1)
-    print("Acabou")
+# import time
+# print("Contagem")
+# for i in range(5):
+    
+#     # print(5 - i, end="\r")
+# #     print(5 - i, end="\r")
+# #     time.sleep(1)
+#     print("Acabou")
+
+lista = range(5)
+print(list(lista))
