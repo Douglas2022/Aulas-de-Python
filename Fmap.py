@@ -12,5 +12,5 @@
 # print(novoSalario)
   
 custos = [600,5000,350,4000]
-custosTotal = sum(custos)
+custosTotal = sum(custos,start=1000)
 print(custosTotal)
