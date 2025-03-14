@@ -25,29 +25,58 @@
 # else:
 #     input('Informe o numero inteiro: \n')
 
-import random
 
-def adivinhe():
-    numeroSecreto = random.randint(1,100)
-    tentativa=10
-    print('BEM-VINDO AO JOGO DE ADVINHAÇÃO: \n')
-    print('OBS: O numero é de 1 a 100: \n')
 
-    while tentativa > 0: 
-        palpite = int(input(f'Tentativas restantes {tentativa} .Qual o seu palpite?\n'))
-        if palpite < numeroSecreto:
-            print('O número é maior\n')
+# def adivinhe():
+#     numeroSecreto = random.randint(1,100)
+#     tentativa=10
+#     print('BEM-VINDO AO JOGO DE ADVINHAÇÃO: \n')
+#     print('OBS: O numero é de 1 a 100: \n')
 
-        elif palpite > numeroSecreto:
-            print('O número é menor\n')
+#     while tentativa > 0: 
+#         palpite = int(input(f'Tentativas restantes {tentativa} .Qual o seu palpite?\nc'))
+#         if palpite < numeroSecreto:
+#             print('O número é maior\n')
 
-        else:
-            print(f'Voce acertou:{numeroSecreto}\n')
-            break
+#         elif palpite > numeroSecreto:
+#             print('O número é menor\n')
 
-        tentativa -= 1
+#         else:
+#             print(f'Voce acertou:{numeroSecreto}\n')
+#             break
 
-        if tentativa == 0:
-             print('Voce perdeu:{numeroSecreto}\n')
+#         tentativa -= 1
 
-adivinhe()
+#         if tentativa == 0:
+#              print('Voce perdeu:{numeroSecreto}\n')
+
+# adivinhe()
+
+# import random
+# def adivinha():
+#     numeroSecreto = random.randint(1,100)
+#     tentativas = 10
+#     print('Bem-vindo ao jogo de advinhação!/n OBS: O numero é de 1 a 100 e suas tentativas são 10.')
+#     while tentativas > 0:
+#         palpite = int(input(f'Tentativas restantes {tentativas}. Qual é o seu palpite?\n'))
+#         if palpite < numeroSecreto:
+#             print('O numero é maior:')
+#         elif palpite > numeroSecreto:
+#             print('O numero é menor')
+#         else:
+#             print('Acertou{numeroSecreto}')
+#             break
+#         tentativas -= 1
+
+#         if tentativas == 0:
+#             print('Voce perdeu {numeroSecreto}')
+
+# adivinha()
+     
+for i in range(1,11):
+    print(f'10 x {i} = (10 * {i})')
+    
+
+
+
+
