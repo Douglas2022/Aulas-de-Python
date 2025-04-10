@@ -58,6 +58,15 @@ import math
 # print('Valor da some:',soma)
 # print('Valor d1a media:',media)
 
-for i in range(1,51):
-    if i % 2 != 0:
-        print(i)
+# for i in range(1,51):
+#     if i % 2 != 0:
+#         print(i)
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite um número: '))
+
+inicio = min(n1,n2)
+fim = max(n1,n2) +1
+
+for i in range(inicio,fim):
+    print(i,end=' ')
