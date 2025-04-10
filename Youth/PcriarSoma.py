@@ -71,7 +71,17 @@ import math
 # for i in range(inicio,fim):
 #     print(i,end=' ')
 
-vetor = [float(input(f'Digite o numeros: ')) for i in range(5)]
-media = sum(vetor) / len(vetor)
+# vetor = [float(input(f'Digite o numeros: ')) for i in range(5)]
+# media = sum(vetor) / len(vetor)
 
-print(' A media é de: ',media)
+# print(' A media é de: ',media)
+
+matriz = [
+    [1, 5, 9],
+    [3, 7, 2],
+    [8, 4, 6]
+]
+
+maior = max(max(linha) for linha in matriz )
+
+print(f'O maior numero da matriz é:!',maior)
