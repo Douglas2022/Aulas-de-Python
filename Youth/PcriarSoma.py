@@ -18,7 +18,13 @@ import math
 
 # print('O número convertido em metros é de: ',ctm)
 
-circuferencia = float(input('digite a circuferenca: '))
-raio = circuferencia /(2* math.pi)
-print(f'O raio é de: {raio: 2f}')
+# circuferencia = float(input('digite a circuferenca: '))
+# raio = circuferencia /(2* math.pi)
+# print(f'O raio é de: {raio: 2f}')
 
+base = int(input('Digite a base: '))
+altura = int(input('Digite a base: '))
+
+area = base * altura
+
+print('A area ´é de: ',area)
