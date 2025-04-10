@@ -22,9 +22,42 @@ import math
 # raio = circuferencia /(2* math.pi)
 # print(f'O raio é de: {raio: 2f}')
 
-base = int(input('Digite a base: '))
-altura = int(input('Digite a base: '))
+# base = int(input('Digite a base: '))
+# altura = int(input('Digite a base: '))
+# area = base * altura
+# print('A area ´é de: ',area)
 
-area = base * altura
+# n1 = int(input('Digite un numero: '))
+# n2 = int(input('Digite un numero: '))
+# n3 = int(input('Digite un numero: '))
 
-print('A area ´é de: ',area)
+# menor = min(n1,n2,n3)
+
+# print(f'O menor numero é de:',menor)
+
+# n1 = int(input('Digite un numero: '))
+# n2 = int(input('Digite un numero: '))
+# n3 = int(input('Digite un numero: '))
+# n4 = int(input('Digite un numero: '))
+# n5 = int(input('Digite un numero: '))
+
+# maior = max(n1,n2,n3,n4,n5)
+
+
+n1 = int(input('Digite un numero: '))
+n2 = int(input('Digite un numero: '))
+n3 = int(input('Digite un numero: '))
+n4 = int(input('Digite un numero: '))
+n5 = int(input('Digite un numero: '))
+
+numeros = [n1,n2,n3,n4,n5]
+soma = sum(numeros)
+media = soma/len(numeros)
+
+
+print('Valor da some:',soma)
+print('Valor d1a media:',media)
+
+# for i in range(1,51):
+#     if i % 2 != 0:
+#         print(i)
