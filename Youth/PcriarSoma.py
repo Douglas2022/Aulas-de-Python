@@ -62,11 +62,16 @@ import math
 #     if i % 2 != 0:
 #         print(i)
 
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite um número: '))
+# n1 = int(input('Digite um número: '))
+# n2 = int(input('Digite um número: '))
 
-inicio = min(n1,n2)
-fim = max(n1,n2) +1
+# inicio = min(n1,n2)
+# fim = max(n1,n2) +1
 
-for i in range(inicio,fim):
-    print(i,end=' ')
+# for i in range(inicio,fim):
+#     print(i,end=' ')
+
+vetor = [float(input(f'Digite o numeros: ')) for i in range(5)]
+media = sum(vetor) / len(vetor)
+
+print(' A media é de: ',media)
