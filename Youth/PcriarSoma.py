@@ -1,3 +1,4 @@
+import math
 # numero1 = int(input('Digite um número: '))
 # numero2 = int(input('Digite um número: '))
 # soma = numero1 + numero2
@@ -12,10 +13,12 @@
 
 # print('A media é de: ',media)
 
-metros = int(input('Digite um número: '))
-ctm = metros/ 100;
+# metros = int(input('Digite um número: '))
+# ctm = metros/ 100;
 
-print('O número convertido em metros é de: ',ctm)
+# print('O número convertido em metros é de: ',ctm)
 
-
+circuferencia = float(input('digite a circuferenca: '))
+raio = circuferencia /(2* math.pi)
+print(f'O raio é de: {raio: 2f}')
 
