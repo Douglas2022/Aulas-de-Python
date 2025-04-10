@@ -44,20 +44,20 @@ import math
 # maior = max(n1,n2,n3,n4,n5)
 
 
-n1 = int(input('Digite un numero: '))
-n2 = int(input('Digite un numero: '))
-n3 = int(input('Digite un numero: '))
-n4 = int(input('Digite un numero: '))
-n5 = int(input('Digite un numero: '))
+# n1 = int(input('Digite un numero: '))
+# n2 = int(input('Digite un numero: '))
+# n3 = int(input('Digite un numero: '))
+# n4 = int(input('Digite un numero: '))
+# n5 = int(input('Digite un numero: '))
 
-numeros = [n1,n2,n3,n4,n5]
-soma = sum(numeros)
-media = soma/len(numeros)
+# numeros = [n1,n2,n3,n4,n5]
+# soma = sum(numeros)
+# media = soma/len(numeros)
 
 
-print('Valor da some:',soma)
-print('Valor d1a media:',media)
+# print('Valor da some:',soma)
+# print('Valor d1a media:',media)
 
-# for i in range(1,51):
-#     if i % 2 != 0:
-#         print(i)
+for i in range(1,51):
+    if i % 2 != 0:
+        print(i)
